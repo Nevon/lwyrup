@@ -1,0 +1,47 @@
+{
+  "name": "lwyrup",
+  "version": "0.0.1",
+  "description": "Dependency license compatibility checker 🕴",
+  "main": "src/index.js",
+  "bin": {
+    "lwyrup": "./bin/lwyrup-cli.js"
+  },
+  "repository": "https://github.com/Nevon/lwyrup",
+  "author": "Tommy Brunn <tommy.brunn@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "format": "prettier --write src/**/*.js src/*.js bin/*.js",
+    "precommit": "lint-staged"
+  },
+  "devDependencies": {
+    "husky": "^0.14.3",
+    "jest": "^20.0.4",
+    "lint-staged": "^4.0.3",
+    "prettier": "^1.5.3"
+  },
+  "dependencies": {
+    "nlf": "^2.0.0",
+    "spdx-correct": "^2.0.4",
+    "spdx-expression-parse": "^2.0.2"
+  },
+  "jest": {
+    "verbose": true,
+    "testEnvironment": "node"
+  },
+  "lint-staged": {
+    "*.js": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "keywords": [
+    "license",
+    "licence",
+    "checker",
+    "finder",
+    "audit",
+    "legal",
+    "dependency",
+    "cli"
+  ]
+}
