@@ -14,7 +14,7 @@ As an added bonus, it also highlights the absurd complexity of software licensin
 ## Notes
 
   * I am not a lawyer. Nothing I say or any information provided by this project is legal advice. If you are concerned about software licensing, contact a legal professional in your juristiction.
-  * This project does not recursively scan dependencies of dependencies at the moment. This means that even if you are not in conflict with the license that one of your dependencies is released under, it's possible that one of your dependencies is in conflict with one if *its* dependencies and may need to be re-licensed under a license that you are not compatible with. Contributions to allow for conditional recursive scanning are welcome!
+  * This project does not recursively scan dependencies of dependencies at the moment. This means that even if you are not in conflict with the license that one of your dependencies is released under, it's possible that one of your dependencies is in conflict with one of *its* dependencies and may need to be re-licensed under a license that you are not compatible with. Contributions to allow for conditional recursive scanning are welcome!
   * A lot of information is missing on which licenses are compatible with each other, which often causes the result to be that you are potentially in violation. Contributions backed by authoritative sources adding more information about which licenses are compatible are most welcome.
 
 ## Contributing
